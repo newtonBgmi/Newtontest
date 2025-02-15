@@ -66,7 +66,7 @@ async def start_asyncio_loop():
 async def run_attack_command_async(target_ip, target_port, duration):
     await run_attack_command_on_codespace(target_ip, target_port, duration)
 
-def is_user_admin(user_id, chat_id):
+def is_user_admin(7211315817, -4656190352):
     try:
         return bot.get_chat_member(chat_id, user_id).status in ['administrator', 'creator']
     except:
